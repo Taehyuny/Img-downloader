@@ -1,7 +1,6 @@
 ﻿import requests, shutil
 
 def get(max_count = 35):
-    #urllib.request.urlretrieve(다운로드 할 이미지 URL, 저장할 경로 및 파일명)
     count = 0
     img_url = "enter url"
     while count <= max_count:
